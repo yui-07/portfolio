@@ -1,13 +1,324 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="css/style.css" />
-        <title>Document</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <!-- <meta property="og:type" content="website" />
+        <meta
+            property="og:title"
+            content="ポートフォリオ"
+        />
+        <meta property="og:url" content="URLが入る" />
+        <meta
+            property="og:description"
+            content="ポートフォリオ"
+        />
+        <meta property="og:image" content="img/ogp.png" />
+        <meta
+            name="description"
+            content="ポートフォリオ"
+        /> -->
+        <title>Yui Kawaguchi ポートフォリオ</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+        <!-- <link
+            href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined"
+            rel="stylesheet"
+        /> -->
+        <link rel="stylesheet" href="css/destyle.css">
+        <link
+            href="css/style.css"
+            media="all"
+            rel="stylesheet"
+            type="text/css"
+        />
+        <link rel="shortcut icon" href="images/favicon2.gif" />
+        <link rel="”canonical”" href="”URLが入る”" />
     </head>
+
     <body>
-        <h1>GitHubの動作テスト</h1>
-        <p>テスト</p>
+            <div class="loader"></div>
+            <button class="back-to-top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
+                    <span class="arrow">↑</span></button>
+        <div class="wrapper">
+            <!-- header -->
+            <header class="header">
+                <div class="container">
+                    <h1 class="header-logo">
+                        <a href=".">PortFolio</a>
+                    </h1>
+                    <nav class="gnav">
+                        <ul class="gnav-list">
+                                <li class="gnav-item">
+                                        <a href="#">HOME</a>
+                                          
+                                      </li>
+                            <li class="gnav-item">
+                              <a href="#about">ABOUT</a>
+                                
+                            </li>
+                            <li class="gnav-item">
+                                <a href="#skill">SKILL</a>
+                            </li>
+                            <li class="gnav-item">
+                              <a href="#works">WORKS</a>
+                            </li>
+                            <li class="gnav-item">
+                                <a href="#contact">CONTACT</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <!-- /header -->
+
+            <main class="content">
+                <!-- mv -->
+                <div class="mv">
+                    <div class="mv-container">
+                        <p class="mv-title">My Portfolio</p>
+                        <p class="mv-subtitle">Yui Kawaguchi</p>
+                        
+                    </div>
+                </div>
+                <!-- /mv -->
+
+                 <!-- about -->
+                 <section class="about section" id="about">
+                  <div class="container">
+                      <h2 class="title">ABOUT</h2>
+                      <div class="profile">
+                          <p class="profile-img">
+                              <img src="images/r2.jpg" alt="" />
+                          </p>
+                          <div class="profile-body">
+                              <p>
+                                前職はホームページ制作会社の営業職として3年勤務。
+                              </p>
+                              <p>
+                                  2024年7月から職業訓練校の創造社リカレントスクール三宮校へ入校し
+                                  グラフィック・Webデザインを学ぶ。
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+              </section>
+              <!-- /about -->
+
+               <!-- skill -->
+               <section class="skill section" id="skill">
+                <div class="container">
+                    <h2 class="title">SKILL</h2>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <p class="skill-img">
+                                <img src="images/htmlcss.svg" alt="" />
+                            </p>
+                            <div class="skill-body">
+                                <h3 class="skill-name">HTML5/CSS3</h3>
+                                <p class="skill-text">
+                                  VSCodeを使用し基本的なコーディングが可能
+                                </p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <p class="skill-img">
+                                <img src="images/js.png" alt="" />
+                            </p>
+                            <div class="skill-body">
+                                <h3 class="skill-name">JavaScript</h3>
+                                <p class="skill-text">
+                                  部分的に動かすようなコードが使用可能
+                                </p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <p class="skill-img">
+                                <img src="images/ai.png" alt="" />
+                            </p>
+                            <div class="skill-body">
+                                <h3 class="skill-name">Illustrator</h3>
+                                <p class="skill-text">
+                                  チラシ等のデザイン制作に使用
+                                </p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <p class="skill-img">
+                                <img src="images/ps.png" alt="" />
+                            </p>
+                            <div class="skill-body">
+                                <h3 class="skill-name">Photoshop</h3>
+                                <p class="skill-text">
+                                  画像の切り抜きや加工に使用
+                                </p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <p class="skill-img">
+                                <img src="images/fig.png" alt="" />
+                            </p>
+                            <div class="skill-body">
+                                <h3 class="skill-name">Figma</h3>
+                                <p class="skill-text">
+                                  デザインカンプの作成、共同編集で使用
+                                </p>
+                            </div>
+                        </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /skill -->
+
+
+
+                <!-- works -->
+                <section class="works section" id="works">
+                    <div class="container">
+                        <h2 class="title">WORKS</h2>
+                        <div class="works-list">
+                            <a class="works-item" href="works-icon.html">
+                                <div class="works-img">
+                                    <img
+                                        src="images/icon2.png"
+                                        alt=""
+                                    />
+                                </div>
+                                <p class="works-name">アイコン</p>
+                                <p class="works-info">
+                                    Illustrator
+                                </p>
+                            </a>
+                            <a class="works-item" href="works-card.html">
+                                <div class="works-img">
+                                    <img
+                                        src="images/card２.png"
+                                        alt=""
+                                    />
+                                </div>
+                                <p class="works-name">名刺</p>
+                                <p class="works-info">Illustrator
+                                    
+                                </p>
+                            </a>
+                            <a class="works-item" href="works-banner1.html">
+                                <div class="works-img">
+                                    <img
+                                        src="images/banner.png"
+                                        alt=""
+                                    />
+                                </div>
+                                <p class="works-name">バナー</p>
+                                <p class="works-info">Photoshop</p>
+                            </a>
+                            <a class="works-item" href="works-banner2.html">
+                              <div class="works-img">
+                                  <img
+                                      src="images/figma.png"
+                                      alt=""
+                                  />
+                              </div>
+                              <p class="works-name">バナー</p>
+                              <p class="works-info">Figma/Illustrator</p>
+                          </a>
+                            <a class="works-item" href="works-flyer.html">
+                                <div class="works-img">
+                                    <img
+                                        src="images/flyer1.jpg"
+                                        alt=""
+                                    />
+                                </div>
+                                <p class="works-name">チラシ</p>
+                                <p class="works-info">Illustrator</p>
+                            
+                        </a>
+                        <a class="works-item" href="works-ramen.html">
+                            <div class="works-img">
+                                <img
+                                    src="images/ramen.png"
+                                    alt=""
+                                />
+                            </div>
+                            <p class="works-name">デザインカンプ</p>
+                            <p class="works-info">Illustrator/Photoshop</p>
+                        </a>
+                        <a class="works-item" href="works-potato.html">
+                            <div class="works-img">
+                                <img
+                                    src="images/Frame 591.png"
+                                    alt=""
+                                />
+                            </div>
+                            <p class="works-name">実制作Webサイト案</p>
+                            <p class="works-info">Figma/Illustrator/Phptpshop/VSCode</p>
+                        </a>
+                        <a class="works-item" href="works-lp.html">
+                            <div class="works-img">
+                                <img
+                                    src="まだできてない.png"
+                                    alt=""
+                                />
+                            </div>
+                            <p class="works-name">ランディングページ</p>
+                            <p class="works-info">Figma/VSCode</p>
+                        </a>
+                          
+                        </div>
+                    </div>
+                </section>
+                <!-- /works -->
+
+               
+                <!-- contact -->
+                <section class="contact section" id="contact">
+                    <div class="container">
+                        <h2 class="title">CONTACT</h2>
+                        <p class="lead">
+                            <br
+                                class="sp-only"
+                            />お問い合わせはこちら
+                        </p>
+                        <div class="contact-list">
+                            <!-- <a
+                                class="contact-item"
+                                href="https://twitter.com/"
+                                target="_blank"
+                                rel="noopener"
+                                >Twitter</a
+                            >
+                            <a
+                                class="contact-item"
+                                href="https://www.instagram.com/"
+                                target="_blank"
+                                rel="noopener"
+                                >Instagram</a
+                            > -->
+                            <span class="contact-item">xxxxxx@gmail.com</span>
+                        </div>
+                    </div>
+                </section>
+                <!-- /contact -->
+                
+            </main>
+
+            <!-- footer -->
+            <footer class="footer">
+                <div class="copyright"><p><small>&copy;2024 kawaguchi.</small></p></div>
+            </footer>
+            <!-- /footer -->
+        <!-- </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+        <script src="js/script.js"></script>
+        <script src="js/common.js"></script>
+        <script src="js/if_scrollObservation.js"></script>
+        <script src="js/loading.js"></script>
     </body>
 </html>
